@@ -1,0 +1,64 @@
+@media screen and (max-width: 480px) {
+    img {
+        width: 40vw;
+        height: 25vh;
+    }
+
+    .landing-page {
+        height: 10vh;
+    }
+}
+
+.landing-page {
+    background-image: url(images/men\ in\ black.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
+    opacity: 80%;
+    padding: 0;
+    margin-bottom: 50px;
+}
+
+#first-p {
+    color: white;
+    opacity: 100%;
+    font-size: large;
+    font-weight: bold;
+}
+
+#heading {
+    color: white;
+    opacity: 100%;
+    font-weight: 900;
+}
+
+.my-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dark-opacity {
+    background-color: black;
+    opacity: 60%;
+}
+
+img {
+    width: 60vw;
+    height: 50vh;
+}
+
+#my-carousel {
+    width: 100vw;
+    height: 50vh;
+    margin-bottom: 60px;
+}
+
+button {
+    background-color: grey;
+    border-radius: 25px;
+    color: goldenrod;
+    opacity: 70%;
+}
